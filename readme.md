@@ -1,11 +1,10 @@
-
 Hemisu Color Scheme for Vim
 ===========================
 
 License
 -------
 
-Hemisu by [Noah Frederick](http://noahfrederick.com/blog/2011/vim-color-scheme-hemisu/) is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
+[Hemisu by Noah Frederick](http://noahfrederick.com/blog/2011/vim-color-scheme-hemisu/) is licensed under a [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
 
 Usage
 -----
