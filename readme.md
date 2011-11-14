@@ -1,6 +1,8 @@
 Hemisu Color Scheme for Vim
 ===========================
 
+![Screen shot of MacVim](http://farm7.static.flickr.com/6101/6342657394_209d6847e8_z.jpg)
+
 License
 -------
 
