@@ -43,6 +43,12 @@ Change Log
 - Version 1.0 (2011-11-13)
 	- Initial release
 
+Known Issues
+------------
+
+- Switching background in cterm environment does not correctly toggle colors.
+- Some colors in cterm environment are wrong, some link statements are not observed.
+
 License
 -------
 
