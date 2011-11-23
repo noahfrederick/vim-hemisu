@@ -6,7 +6,8 @@
 " 			3.0 Unported License       (see readme.md)
 " ----------------------------------------------------------
 
-" Reset current syntax highlighting
+" SETUP ----------------------------------------------------{{{
+" Reset syntax highlighting
 hi clear
 if exists("syntax_on")
 	syntax reset
@@ -14,7 +15,9 @@ endif
 
 " Declare theme name
 let g:colors_name="hemisu"
+"}}}
 
+" THE COLORS -----------------------------------------------{{{
 " Define reusable colors
 let s:dBlue=    { "gui": "#87DFFF", "cterm": "117" }
 let s:dRed=     { "gui": "#FF9696", "cterm": "210" }
@@ -47,7 +50,9 @@ let s:lHiBlue=  s:dBlue
 
 let s:black=    { "gui": "#000000", "cterm": "16"  }
 let s:white=    { "gui": "#FFFFFF", "cterm": "231" }
+"}}}
 
+" UTILILITY FUNCTION ---------------------------------------{{{
 function! s:h(group, style)
 	execute "highlight" a:group
 		\ "guifg="   . (has_key(a:style, "fg")    ? a:style.fg.gui   : "NONE")
@@ -58,8 +63,9 @@ function! s:h(group, style)
 		\ "ctermbg=" . (has_key(a:style, "bg")    ? a:style.bg.cterm : "NONE")
 		\ "cterm="   . (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
 endfunction
+"}}}
 
-" Vim >= 7.0 specific colors -------------------------------
+" HIGHLIGHTS - VIM >= 7 ------------------------------------{{{
 if version >= 700
 	if &background=="dark"
 		call s:h("CursorLine",  { "bg": s:dHiSubtle })
@@ -87,8 +93,9 @@ if version >= 700
 	hi! link CursorColumn	CursorLine
 	hi! link SpellLocal	SpellRare
 endif
+"}}}
 
-" UI colors ------------------------------------------------
+" HIGHLIGHTS - UI ------------------------------------------{{{
 if &background=="dark"
 	" Dark theme
 	call s:h("Cursor",       { "fg": s:white, "bg": s:dHiGrey })
@@ -147,8 +154,9 @@ hi! link TabLineFill	StatusLineNC
 hi! link LineNr		NonText
 hi! link SpecialKey	Directory
 hi! clear Ignore
+"}}}
 
-" Syntax highlighting --------------------------------------
+" HIGHLIGHTS - GENERIC SYNTAX ------------------------------{{{
 if &background=="dark"
 	" Dark theme
 	call s:h("Type",      { "fg": s:dMint })
@@ -175,9 +183,11 @@ hi! link Number		Constant
 hi! link Special	Constant
 hi! link PreProc	Constant
 hi! link Error		ErrorMsg
+"}}}
 
-" HTML -----------------------------------------------------
+" HIGHLIGHTS - HTML -----------------------------------------{{{
 hi! link htmlLink	Underlined
 hi! link htmlTag	Type
 hi! link htmlEndTag	htmlTag
+"}}}
 
