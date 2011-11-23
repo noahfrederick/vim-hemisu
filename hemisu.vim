@@ -6,7 +6,7 @@
 " 			3.0 Unported License       (see readme.md)
 " ----------------------------------------------------------
 
-" SETUP ----------------------------------------------------{{{
+" Setup ----------------------------------------------------{{{
 " Reset syntax highlighting
 hi clear
 if exists("syntax_on")
@@ -15,9 +15,9 @@ endif
 
 " Declare theme name
 let g:colors_name="hemisu"
-"}}}
 
-" THE COLORS -----------------------------------------------{{{
+"}}}
+" The Colors -----------------------------------------------{{{
 " Define reusable colors
 let s:dBlue=    { "gui": "#87DFFF", "cterm": "117" }
 let s:dRed=     { "gui": "#FF9696", "cterm": "210" }
@@ -50,9 +50,9 @@ let s:lHiBlue=  s:dBlue
 
 let s:black=    { "gui": "#000000", "cterm": "16"  }
 let s:white=    { "gui": "#FFFFFF", "cterm": "231" }
-"}}}
 
-" UTILILITY FUNCTION ---------------------------------------{{{
+"}}}
+" Utilility Function ---------------------------------------{{{
 function! s:h(group, style)
 	execute "highlight" a:group
 		\ "guifg="   . (has_key(a:style, "fg")    ? a:style.fg.gui   : "NONE")
@@ -63,9 +63,9 @@ function! s:h(group, style)
 		\ "ctermbg=" . (has_key(a:style, "bg")    ? a:style.bg.cterm : "NONE")
 		\ "cterm="   . (has_key(a:style, "cterm") ? a:style.cterm    : "NONE")
 endfunction
-"}}}
 
-" HIGHLIGHTS - VIM >= 7 ------------------------------------{{{
+"}}}
+" Highlights - Vim >= 7 ------------------------------------{{{
 if version >= 700
 	if &background=="dark"
 		call s:h("CursorLine",  { "bg": s:dHiSubtle })
@@ -93,9 +93,9 @@ if version >= 700
 	hi! link CursorColumn	CursorLine
 	hi! link SpellLocal	SpellRare
 endif
-"}}}
 
-" HIGHLIGHTS - UI ------------------------------------------{{{
+"}}}
+" Highlights - UI ------------------------------------------{{{
 if &background=="dark"
 	" Dark theme
 	call s:h("Cursor",       { "fg": s:white, "bg": s:dHiGrey })
@@ -109,7 +109,6 @@ if &background=="dark"
 	call s:h("Folded",       { "fg": s:dComment, "bg": s:dHiSubtle })
 	call s:h("SignColumn",   { "fg": s:dNorm })
 	call s:h("Directory",    { "fg": s:dBlue })
-	call s:h("Underlined",   { "fg": s:dBlue, "gui": "underline", "cterm": "underline" })
 	call s:h("Title",        { "fg": s:dTan, "gui": "bold", "cterm": "bold" })
 	call s:h("ErrorMsg",     { "fg": s:white, "bg": s:dHiRed })
 	call s:h("Visual",       { "bg": s:dHiBlue })
@@ -132,7 +131,6 @@ else
 	call s:h("Folded",       { "fg": s:lComment, "bg": s:lHiSubtle })
 	call s:h("SignColumn",   { "fg": s:lNorm })
 	call s:h("Directory",    { "fg": s:lBlue })
-	call s:h("Underlined",   { "fg": s:lBlue, "gui": "underline", "cterm": "underline" })
 	call s:h("Title",        { "fg": s:lTan, "gui": "bold", "cterm": "bold" })
 	call s:h("ErrorMsg",     { "fg": s:white, "bg": s:lHiRed })
 	call s:h("Visual",       { "bg": s:lHiBlue })
@@ -154,25 +152,27 @@ hi! link TabLineFill	StatusLineNC
 hi! link LineNr		NonText
 hi! link SpecialKey	Directory
 hi! clear Ignore
-"}}}
 
-" HIGHLIGHTS - GENERIC SYNTAX ------------------------------{{{
+"}}}
+" Highlights - Generic Syntax ------------------------------{{{
 if &background=="dark"
 	" Dark theme
-	call s:h("Type",      { "fg": s:dMint })
-	call s:h("String",    { "fg": s:dGreen })
-	call s:h("Keyword",   { "fg": s:dGreen, "gui": "bold", "cterm": "bold" })
-	call s:h("Delimiter", { "fg": s:dDim })
-	call s:h("Comment",   { "fg": s:dComment, "gui": "italic" })
-	call s:h("Todo",      { "fg": s:dComment, "sp": s:dHiRed, "gui": "underline,italic", "cterm": "underline" })
+	call s:h("Type",       { "fg": s:dMint })
+	call s:h("String",     { "fg": s:dGreen })
+	call s:h("Keyword",    { "fg": s:dGreen, "gui": "bold", "cterm": "bold" })
+	call s:h("Delimiter",  { "fg": s:dDim })
+	call s:h("Underlined", { "fg": s:dBlue, "gui": "underline", "cterm": "underline" })
+	call s:h("Comment",    { "fg": s:dComment, "gui": "italic" })
+	call s:h("Todo",       { "fg": s:dComment, "sp": s:dHiRed, "gui": "underline,italic", "cterm": "underline" })
 else
 	" Light theme
-	call s:h("Type",      { "fg": s:lPink })
-	call s:h("String",    { "fg": s:lGreen })
-	call s:h("Keyword",   { "fg": s:lGreen, "gui": "bold", "cterm": "bold" })
-	call s:h("Delimiter", { "fg": s:lDim })
-	call s:h("Comment",   { "fg": s:lComment, "gui": "italic" })
-	call s:h("Todo",      { "fg": s:lComment, "sp": s:lHiRed, "gui": "underline,italic", "cterm": "underline" })
+	call s:h("Type",       { "fg": s:lPink })
+	call s:h("String",     { "fg": s:lGreen })
+	call s:h("Keyword",    { "fg": s:lGreen, "gui": "bold", "cterm": "bold" })
+	call s:h("Delimiter",  { "fg": s:lDim })
+	call s:h("Underlined", { "fg": s:lBlue, "gui": "underline", "cterm": "underline" })
+	call s:h("Comment",    { "fg": s:lComment, "gui": "italic" })
+	call s:h("Todo",       { "fg": s:lComment, "sp": s:lHiRed, "gui": "underline,italic", "cterm": "underline" })
 endif
 
 call s:h("Function", { "gui": "bold", "cterm": "bold" })
@@ -183,11 +183,12 @@ hi! link Number		Constant
 hi! link Special	Constant
 hi! link PreProc	Constant
 hi! link Error		ErrorMsg
-"}}}
 
-" HIGHLIGHTS - HTML -----------------------------------------{{{
+"}}}
+" Highlights - HTML -----------------------------------------{{{
 hi! link htmlLink	Underlined
 hi! link htmlTag	Type
 hi! link htmlEndTag	htmlTag
+
 "}}}
 
