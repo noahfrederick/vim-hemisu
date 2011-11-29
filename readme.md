@@ -33,6 +33,9 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 2.1 (2011-11-29)
+	- Added fold markers to file
+	- Minor improvements to organization
 - Version 2.0 (2011-11-20)
 	- Completely refactored for easier maintenance
 	- Added remaining UI color groups
