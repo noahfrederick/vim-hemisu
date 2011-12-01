@@ -171,4 +171,8 @@ hi! link htmlTag	Type
 hi! link htmlEndTag	htmlTag
 
 "}}}
+" Highlights - Markdown -------------------------------------{{{
+hi! link mkdListItem	mkdDelimiter
+
+"}}}
 
