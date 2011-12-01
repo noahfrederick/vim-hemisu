@@ -34,7 +34,7 @@ let s:middleLightPink= { "gui": "#D75F5F", "cterm": "167" }
 let s:lightPink=       { "gui": "#FFAFAF", "cterm": "217" }
 
 let s:darkBlue=        { "gui": "#005F87", "cterm": "17"  }
-let s:middleDarkBlue=  { "gui": "#538192", "cterm": "24" }
+let s:middleDarkBlue=  { "gui": "#538192", "cterm": "24"  }
 let s:middleLightBlue= { "gui": "#84C2D8", "cterm": "116" }
 let s:lightBlue=       { "gui": "#E2F7FF", "cterm": "195" }
 
@@ -44,7 +44,7 @@ let s:middleLightGreen={ "gui": "#B1D631", "cterm": "149" }
 let s:lightGreen=      { "gui": "#BBFFAA", "cterm": "157" }
 
 let s:darkTan=         { "gui": "#503D15", "cterm": "52"  }
-let s:lightTan=        { "gui": "#D6C8A9", "cterm": "230"  }
+let s:lightTan=        { "gui": "#D6C8A9", "cterm": "230" }
 
 " Assign to semantic categories based on background color
 if &background=="dark"
