@@ -30,7 +30,7 @@ let s:darkGrey=        { "gui": "#444444", "cterm": "233" }
 
 let s:darkPink=        { "gui": "#63001C", "cterm": "88"  }
 let s:middleDarkPink=  { "gui": "#FF0055", "cterm": "197" }
-let s:middleLightPink= { "gui": "#D75F5F", "cterm": "167" }
+let s:middleLightPink= { "gui": "#D65E76", "cterm": "167" }
 let s:lightPink=       { "gui": "#FFAFAF", "cterm": "217" }
 
 let s:darkBlue=        { "gui": "#005F87", "cterm": "17"  }
@@ -154,7 +154,7 @@ call s:h("Underlined", { "fg": s:accent1, "gui": "underline", "cterm": "underlin
 call s:h("Type",       { "fg": s:accent3 })
 call s:h("String",     { "fg": s:accent2 })
 call s:h("Keyword",    { "fg": s:accent2, "gui": "bold", "cterm": "bold" })
-call s:h("Todo",       { "fg": s:comment, "sp": s:normRed, "gui": "underline,italic", "cterm": "underline" })
+call s:h("Todo",       { "fg": s:normRed, "gui": "bold", "cterm": "bold" })
 call s:h("Function",   { "gui": "bold", "cterm": "bold" })
 hi! link Identifier	Function
 hi! link Statement	Type
