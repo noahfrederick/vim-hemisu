@@ -171,6 +171,12 @@ hi! link htmlTag	Type
 hi! link htmlEndTag	htmlTag
 
 "}}}
+" Highlights - CSS ------------------------------------------{{{
+hi! link cssBraces	Delimiter
+hi! link cssSelectorOp	cssBraces
+hi! link cssClassName	Normal
+
+"}}}
 " Highlights - Markdown -------------------------------------{{{
 hi! link mkdListItem	mkdDelimiter
 
