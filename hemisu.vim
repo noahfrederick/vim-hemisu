@@ -181,4 +181,9 @@ hi! link cssClassName	Normal
 hi! link mkdListItem	mkdDelimiter
 
 "}}}
+" Highlights - Shell ----------------------------------------{{{
+hi! link shOperator	Delimiter
+hi! link shCaseBar	Delimiter
+
+"}}}
 
