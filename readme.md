@@ -33,6 +33,13 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 3.0 (2011-12-03)
+	- Refined color palette: reduced chroma of certain accent colors; improved contrast
+	- Made Todo style more obvious
+	- Consolidated colors between dark and light variants
+	- Improved highlights for CSS syntax mode
+	- Improved highlights for shell syntax mode
+	- DRYer method of color assignment
 - Version 2.1 (2011-11-29)
 	- Added fold markers to file
 	- Minor improvements to organization
@@ -46,15 +53,12 @@ Change Log
 - Version 1.0 (2011-11-13)
 	- Initial release
 
-Known Issues
-------------
-
-- Switching background in cterm environment does not correctly toggle colors.
-- Some colors in cterm environment are wrong, some link statements are not observed.
-
 License
 -------
 
 Hemisu by [Noah Frederick](http://noahfrederick.com/) is made available under the
 [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
+
+More information and updates can be found on the
+[official page](http://noahfrederick.com/vim-color-scheme-hemisu/).
 
