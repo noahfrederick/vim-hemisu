@@ -60,5 +60,6 @@ Hemisu by [Noah Frederick](http://noahfrederick.com/) is made available under th
 [Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
 
 More information and updates can be found on the
-[official page](http://noahfrederick.com/vim-color-scheme-hemisu/).
+[canonical page](http://noahfrederick.com/vim-color-scheme-hemisu/)
+and [GitHub repository](https://github.com/noahfrederick/Hemisu).
 
