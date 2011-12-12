@@ -33,6 +33,12 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 3.1 (2011-12-12)
+	- Improved highlights for JavaScript syntax mode
+	- Switched the backgrounds of the normal and selected states of tabs so that
+	  appearance of selected tab is more intuitive and obvious
+	- Spelling was invisible since cterm doesn't support undercurl. Duh.
+	  This adds corresponding background colors (faint variants) to cterm.
 - Version 3.0 (2011-12-03)
 	- Refined color palette: reduced chroma of certain accent colors; improved contrast
 	- Made Todo style more obvious
