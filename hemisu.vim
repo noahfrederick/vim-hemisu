@@ -186,4 +186,9 @@ hi! link shOperator	Delimiter
 hi! link shCaseBar	Delimiter
 
 "}}}
+" Highlights - JavaScript -----------------------------------{{{
+hi! link javaScriptValue Constant
+hi! link javaScriptBraces Normal
+
+"}}}
 
