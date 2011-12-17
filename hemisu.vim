@@ -61,9 +61,10 @@ if &background=="dark"
 	let s:accent4=s:lightTan
 	let s:normRed=s:middleLightPink
 	let s:normGreen=s:middleLightGreen
-	let s:faintBlue=s:darkBlue
-	let s:faintGreen=s:darkGreen
+	let s:normBlue=s:middleLightBlue
 	let s:faintRed=s:darkPink
+	let s:faintGreen=s:darkGreen
+	let s:faintBlue=s:darkBlue
 else
 	" Light theme
 	let s:bg=s:white
@@ -78,9 +79,10 @@ else
 	let s:accent4=s:darkTan
 	let s:normRed=s:middleDarkPink
 	let s:normGreen=s:middleDarkGreen
-	let s:faintBlue=s:lightBlue
-	let s:faintGreen=s:lightGreen
+	let s:normBlue=s:middleDarkBlue
 	let s:faintRed=s:lightPink
+	let s:faintGreen=s:lightGreen
+	let s:faintBlue=s:lightBlue
 endif
 
 "}}}
@@ -141,6 +143,9 @@ call s:h("DiffAdd",      { "bg": s:faintGreen })
 call s:h("DiffChange",   { "bg": s:faintRed })
 call s:h("DiffDelete",   { "fg": s:normRed, "bg": s:faintRed })
 call s:h("DiffText",     { "bg": s:faintRed, "gui": "bold", "cterm": "bold" })
+call s:h("User1",        { "fg": s:bg, "bg": s:normGreen })
+call s:h("User2",        { "fg": s:bg, "bg": s:normRed })
+call s:h("User3",        { "fg": s:bg, "bg": s:normBlue })
 hi! link WildMenu	IncSearch
 hi! link FoldColumn	SignColumn
 hi! link WarningMsg	ErrorMsg
