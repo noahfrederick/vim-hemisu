@@ -176,30 +176,31 @@ hi! link PreProc	Constant
 hi! link Error		ErrorMsg
 
 "}}}
-" Highlights - HTML -----------------------------------------{{{
+" Highlights - HTML ----------------------------------------{{{
 hi! link htmlLink	Underlined
 hi! link htmlTag	Type
 hi! link htmlEndTag	htmlTag
 
 "}}}
-" Highlights - CSS ------------------------------------------{{{
+" Highlights - CSS -----------------------------------------{{{
 hi! link cssBraces	Delimiter
 hi! link cssSelectorOp	cssBraces
 hi! link cssClassName	Normal
 
 "}}}
-" Highlights - Markdown -------------------------------------{{{
+" Highlights - Markdown ------------------------------------{{{
 hi! link mkdListItem	mkdDelimiter
 
 "}}}
-" Highlights - Shell ----------------------------------------{{{
+" Highlights - Shell ---------------------------------------{{{
 hi! link shOperator	Delimiter
 hi! link shCaseBar	Delimiter
 
 "}}}
-" Highlights - JavaScript -----------------------------------{{{
+" Highlights - JavaScript ----------------------------------{{{
 hi! link javaScriptValue Constant
 hi! link javaScriptBraces Normal
 
 "}}}
 
+" vim: fdm=marker
