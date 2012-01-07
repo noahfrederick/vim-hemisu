@@ -3,7 +3,7 @@
 " Author:	Noah Frederick (http://noahfrederick.com/)
 " Version:	3.2
 " License:	Creative Commons Attribution-NonCommercial
-" 			3.0 Unported License       (see readme.md)
+" 			3.0 Unported License       (see README.md)
 " ----------------------------------------------------------
 
 " Setup ----------------------------------------------------{{{
