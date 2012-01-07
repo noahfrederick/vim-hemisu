@@ -33,6 +33,10 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 3.2 (2012-01-07)
+	- Made repo pathogen.vim-friendly
+	- Added user highlight groups User1, User2, User3 for use in e.g. custom status line
+	- Small adjustment to JavaScript highlights
 - Version 3.1 (2011-12-12)
 	- Improved highlights for JavaScript syntax mode
 	- Switched the backgrounds of the normal and selected states of tabs so that
