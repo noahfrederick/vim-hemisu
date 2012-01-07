@@ -198,8 +198,9 @@ hi! link shCaseBar	Delimiter
 
 "}}}
 " Highlights - JavaScript ----------------------------------{{{
-hi! link javaScriptValue Constant
-hi! link javaScriptBraces Normal
+hi! link javaScriptValue	Constant
+hi! link javaScriptNull	Constant
+hi! link javaScriptBraces	Normal
 
 "}}}
 
