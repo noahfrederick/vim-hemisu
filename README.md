@@ -66,10 +66,15 @@ Change Log
 License
 -------
 
-Hemisu by [Noah Frederick](http://noahfrederick.com/) is made available under the
-[Creative Commons Attribution-NonCommercial 3.0 Unported License](http://creativecommons.org/licenses/by-nc/3.0/).
+Hemisu by [Noah Frederick][1] is made available under the
+[Creative Commons Attribution-NonCommercial 3.0 Unported License][2].
 
-More information and updates can be found on the
-[canonical page](http://noahfrederick.com/vim-color-scheme-hemisu/)
-and [GitHub repository](https://github.com/noahfrederick/Hemisu).
+[1]: http://noahfrederick.com/
+[2]: http://creativecommons.org/licenses/by-nc/3.0/
+
+More information and updates can be found on the [canonical page][3]
+and [GitHub repository][4].
+
+[3]: http://noahfrederick.com/vim-color-scheme-hemisu/
+[4]: https://github.com/noahfrederick/Hemisu
 
