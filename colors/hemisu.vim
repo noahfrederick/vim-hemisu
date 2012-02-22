@@ -23,10 +23,10 @@ let s:black=           { "gui": "#000000", "cterm": "16"  }
 let s:white=           { "gui": "#FFFFFF", "cterm": "231" }
 let s:almostWhite=     { "gui": "#EEEEEE", "cterm": "255" }
 let s:almostBlack=     { "gui": "#111111", "cterm": "233" }
-let s:middleDarkGrey=  { "gui": "#777777", "cterm": "239" }
+let s:middleDarkGrey=  { "gui": "#777777", "cterm": "241" }
 let s:middleLightGrey= { "gui": "#999999", "cterm": "246" }
 let s:lightGrey=       { "gui": "#BBBBBB", "cterm": "249" }
-let s:darkGrey=        { "gui": "#444444", "cterm": "237" }
+let s:darkGrey=        { "gui": "#444444", "cterm": "238" }
 
 let s:darkPink=        { "gui": "#63001C", "cterm": "88"  }
 let s:middleDarkPink=  { "gui": "#FF0055", "cterm": "197" }
