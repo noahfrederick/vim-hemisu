@@ -1,7 +1,7 @@
 " hemisu.vim - Vim color scheme
 " ----------------------------------------------------------
 " Author:	Noah Frederick (http://noahfrederick.com/)
-" Version:	3.2
+" Version:	3.3
 " License:	Creative Commons Attribution-NonCommercial
 " 			3.0 Unported License       (see README.md)
 " ----------------------------------------------------------

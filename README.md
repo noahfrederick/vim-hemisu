@@ -33,6 +33,8 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 3.3 (2012-02-28)
+	- Corrected some cterm colors
 - Version 3.2 (2012-01-07)
 	- Made repo pathogen.vim-friendly
 	- Added user highlight groups User1, User2, User3 for use in e.g. custom status line
