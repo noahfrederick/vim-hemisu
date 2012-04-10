@@ -154,7 +154,7 @@ hi! link Question	MoreMsg
 hi! link ModeMsg	MoreMsg
 hi! link TabLineFill	StatusLineNC
 hi! link LineNr		NonText
-hi! link SpecialKey	Directory
+hi! link SpecialKey	NonText
 hi! clear Ignore
 
 "}}}
