@@ -33,7 +33,7 @@ let s:middleDarkPink=  { "gui": "#FF0055", "cterm": "197" }
 let s:middleLightPink= { "gui": "#D65E76", "cterm": "167" }
 let s:lightPink=       { "gui": "#FFAFAF", "cterm": "217" }
 
-let s:darkBlue=        { "gui": "#005F87", "cterm": "17"  }
+let s:darkBlue=        { "gui": "#005F87", "cterm": "24"  }
 let s:middleDarkBlue=  { "gui": "#538192", "cterm": "24"  }
 let s:middleLightBlue= { "gui": "#9FD3E6", "cterm": "116" }
 let s:lightBlue=       { "gui": "#CBE4EE", "cterm": "195" }
