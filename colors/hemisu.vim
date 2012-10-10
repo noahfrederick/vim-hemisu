@@ -155,7 +155,6 @@ hi! link ModeMsg	MoreMsg
 hi! link TabLineFill	StatusLineNC
 hi! link LineNr		NonText
 hi! link SpecialKey	NonText
-hi! clear Ignore
 
 "}}}
 " Highlights - Generic Syntax ------------------------------{{{
@@ -201,6 +200,15 @@ hi! link shCaseBar	Delimiter
 hi! link javaScriptValue	Constant
 hi! link javaScriptNull	Constant
 hi! link javaScriptBraces	Normal
+
+"}}}
+" Highlights - Help ----------------------------------------{{{
+hi! link helpExample	String
+hi! link helpHeadline	Title
+hi! link helpSectionDelim	Comment
+hi! link helpHyperTextEntry	Statement
+hi! link helpHyperTextJump	Underlined
+hi! link helpURL	Underlined
 
 "}}}
 
