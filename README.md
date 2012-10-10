@@ -33,6 +33,9 @@ add the following to your .vimrc:
 Change Log
 ----------
 
+- Version 3.4 (2012-10-10)
+	- Improved highlights for help files
+	- Use nicer cterm value for dark blue
 - Version 3.3 (2012-02-28)
 	- Corrected some cterm colors
 - Version 3.2 (2012-01-07)
