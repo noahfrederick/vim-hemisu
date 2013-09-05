@@ -19,16 +19,14 @@ To install and use this color scheme, move the file hemisu.vim into your colors 
 The color scheme comes in two flavors, dark and light. To toggle between the two modes,
 set the background in Vim:
 
-	:set background=dark
-	:set background=light
+	set background=dark
+	set background=light
 
 To enable syntax highlighting and use the color scheme automatically when you start Vim,
 add the following to your .vimrc:
 
-	if &t_Co > 2 || has("gui_running")
-	  syntax on
-	  colorscheme hemisu
-	endif
+	syntax on
+	colorscheme hemisu
 
 Change Log
 ----------
