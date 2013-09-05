@@ -33,7 +33,7 @@ Change Log
 
 For a list of changes and bug fixes, see [releases][0].
 
-[0]: https://github.com/noahfrederick/Hemisu/releases
+[0]: https://github.com/noahfrederick/vim-hemisu/releases
 
 License
 -------
@@ -48,5 +48,5 @@ More information and updates can be found on the [canonical page][3]
 and [GitHub repository][4].
 
 [3]: http://noahfrederick.com/vim-color-scheme-hemisu/
-[4]: https://github.com/noahfrederick/Hemisu
+[4]: https://github.com/noahfrederick/vim-hemisu
 
