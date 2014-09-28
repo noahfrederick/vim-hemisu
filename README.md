@@ -27,6 +27,8 @@ add the following to your .vimrc:
 
 	syntax on
 	colorscheme hemisu
+	
+Depending on your system you may need to enable 256 color mode using the command set t_Co=256. This can also be added to your .vimrc
 
 Change Log
 ----------
